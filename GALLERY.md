@@ -4,66 +4,66 @@
 
 Scan
 
-![[gallery1.png]]
+![[img/gallery1.png]]
 
 In 8080:
 
-![[gallery2.png]]
+![[img/gallery2.png]]
 
 We search some dirs but no nothing interesting:
 
-![[gallery3.png]]
+![[img/gallery3.png]]
 
 So in the login panel I caputured the request
 
-![[gallery4 2.png]]
+![[img/gallery4 2.png]]
 
 Unsafe response... 
 
-![[gallery5.png]]
+![[img/gallery5.png]]
 
 Now we are inside
 
 We can see some interesting things
 
-![[gallery9.png]]
+![[img/gallery9.png]]
 
 We can upload an avatar, I try upload my reverse shell php
 
-![[gallery8.png]]
+![[img/gallery8.png]]
 
 Later of upload and update, we can get connection in our listener 
 
 Now inside, we can see the gallery directory and: 
 
-![[gallery11.png]]
+![[img/gallery11.png]]
 
 So: 
 
-![[gallery10 1.png]]
+![[img/gallery10 1.png]]
 
 Here are the hash administrator:
 
-![[gallery12.png]]
+![[img/gallery12.png]]
 
 Later of trying decrypt this hash. i didn't but I found this backup of the user mike:
 
-![[gallery13.png]]
+![[img/gallery13.png]]
 
 Interesting.. but this passwords not work. Anyway, the password are in the .bash_history
 
-![[gallery13-1.png]]
+![[img/gallery13-1.png]]
 
 Now we are the user Mike and we can get the user.txt
 
-![[gallery14.png]]
+![[img/gallery14.png]]
 
 Now we try be root, so run the command: sudo -l and detect a very strange .sh
 
-![[gallery15 1.png]]
+![[img/gallery15 1.png]]
 
 we can run /bin/nano like sudo 
 
-![[gallery16.png]]
+![[img/gallery16.png]]
 
-![[gallery17.png]]
+![[img/gallery17.png]]

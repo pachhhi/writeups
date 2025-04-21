@@ -4,7 +4,7 @@
 
 Scan
 
-![](img/gallery1.png)
+![t](img/gallery1.png)
 
 In 8080:
 
